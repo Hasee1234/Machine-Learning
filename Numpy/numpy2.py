@@ -3,8 +3,8 @@ import numpy as np
 # b=np.zeros([2,3])
 # b=np.zeros([2,2,3])
 # b=np.zeros([2,2,2,3])
-b=np.zeros([2,2,2,3],dtype=np.int64)#to convert into float
-# print(b)
+# b=np.zeros([2,2,2,3],dtype=np.int64)#to convert into float
+print(b)
 
 c=np.ones([2,2,2,3])
 # print(c)
@@ -36,5 +36,5 @@ for i in range(shape[0]):
                 array[i, j, k, l] = value*2-1#for odd
                 value += 1
 # print(array)
-print(np.concatenate((b,c)))
-print(np.concatenate((b,c),axis=1))
+# print(np.concatenate((b,c)))
+# print(np.concatenate((b,c),axis=1))

@@ -114,13 +114,13 @@ import pandas as pd
 # plt.ylabel('Y')
 # plt.show()
 
-data=pd.DataFrame({
-    'Category':['A']*50 + ['B']*50,
-    'value':np.random.normal(0,1,100)
-})
-plt.figure(figsize=(10, 6))
-sns.swarmplot(data=data,x='Category',y='value')
-plt.title('Swarm Plot')
-plt.xlabel('Category')
-plt.ylabel('Value')
-plt.show()
+# data=pd.DataFrame({
+#     'Category':['A']*50 + ['B']*50,
+#     'value':np.random.normal(0,1,100)
+# })
+# plt.figure(figsize=(10, 6))
+# sns.swarmplot(data=data,x='Category',y='value')
+# plt.title('Swarm Plot')
+# plt.xlabel('Category')
+# plt.ylabel('Value')
+# plt.show()
