@@ -58,5 +58,25 @@ import numpy as np
 #identity
 # arr_identity=np.identity(3)
 # print(arr_identity)
-arr_identity=np.eye(3)
-print(arr_identity)
+# arr_identity=np.eye(3)
+# print(arr_identity)
+
+# concatenation 
+x=np.array([[1,2,3,4],[5,6,7,8]])
+# y=np.array([[1,2,3,4],[5,6,7,8]])
+# d=np.concatenate((x,y))
+# print(d)
+# print(x.size)
+# print(x.reshape(4,2))
+
+#new axis
+# newaxis=x[np.newaxis,:,:]
+# print(newaxis.shape)
+# print(newaxis.size)
+# print(newaxis.ndim)
+
+# expand array 
+expand_x=np.expand_dims(x, axis=1)
+print(expand_x)
+# print(expand_x.shape)
+# print(expand_x.ndim)
