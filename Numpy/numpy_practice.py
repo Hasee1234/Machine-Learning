@@ -21,16 +21,16 @@ import numpy as np
 #     [13,14,15]]]]])
 # print(c.ndim)
 
-# zeros=np.zeros([2,],dtype=np.in64)
-# zeros2=zeros.astype(int)
-# print(zeros2)
-# print(zeros.shape)
-# print(zeros.ndim)
+zeros=np.zeros([2,],dtype=np.int64)
+zeros2=zeros.astype(int)
+print(zeros2)
+print(zeros.shape)
+print(zeros.ndim)
 
-# ones=np.ones([5,5,6,7,7],dtype=np.int64)
-# print(ones)
-# print(ones.shape)
-# print(ones.ndim)
+ones=np.ones([5,5,6,7,7],dtype=np.int64)
+print(ones)
+print(ones.shape)
+print(ones.ndim)
 
 # empty=np.empty([1,2,3],dtype=np.int64)
 # print(empty)
@@ -77,6 +77,6 @@ x=np.array([[1,2,3,4],[5,6,7,8]])
 
 # expand array 
 expand_x=np.expand_dims(x, axis=1)
-print(expand_x)
+# print(expand_x)
 # print(expand_x.shape)
 # print(expand_x.ndim)

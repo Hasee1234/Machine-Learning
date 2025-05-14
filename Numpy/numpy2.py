@@ -4,7 +4,7 @@ import numpy as np
 # b=np.zeros([2,2,3])
 # b=np.zeros([2,2,2,3])
 # b=np.zeros([2,2,2,3],dtype=np.int64)#to convert into float
-print(b)
+# print(b)
 
 c=np.ones([2,2,2,3])
 # print(c)
